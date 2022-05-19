@@ -128,3 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode
+
+# Face datasets
+models/datasets/close
+models/datasets/open
