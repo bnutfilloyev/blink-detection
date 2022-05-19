@@ -1,6 +1,6 @@
 # blink-detection
 
-A short description of the project
+Blink Detection(Open Close Eye detection)
 
 ## Development Requirements
 
@@ -39,10 +39,6 @@ make install
 
 `make test`
 
-## Runnning Easter Egg
-
-`make easter`
-
 ## Access Swagger Documentation
 
 > <http://localhost:8080/docs>
@@ -65,3 +61,12 @@ Application parts are:
     └── main.py          - FastAPI application creation and configuration.
     │
     tests                  - pytest
+    |
+    models                 - Traing data models
+    └── datasets           - crop eye datasets
+    └── data_collecting.ipynb - data collecting notebook
+    └── dataset.csv        - dataset 1D Array
+    └── helpers.py         - helper functions
+    └── preprocess.py      - preprocessing functions
+    └── train.ipynb        - training functions
+    └── test.py            - Real Time Camera test function
