@@ -14,11 +14,6 @@ Blink Detection(Open Close Eye detection)
 MODEL_PATH=./ml/model/
 MODEL_NAME=model.h5
 ```
-
-### Update `/predict`
-
-To update your machine learning model, add your `load` and `method` [change here](app/api/routes/predictor.py#L13) at `predictor.py`
-
 ## Installation
 
 ```sh
