@@ -57,11 +57,11 @@ Application parts are:
     │
     tests                  - pytest
     |
-    models                 - Traing data models
-    └── datasets           - crop eye datasets
-    └── data_collecting.ipynb - data collecting notebook
-    └── dataset.csv        - dataset 1D Array
-    └── helpers.py         - helper functions
-    └── preprocess.py      - preprocessing functions
-    └── train.ipynb        - training functions
-    └── test.py            - Real Time Camera test function
+    models                      - Traing data models
+    └── datasets                - crop eye datasets
+    └── data_collecting.ipynb   - data collecting notebook
+    └── dataset.csv             - dataset 1D Array
+    └── helpers.py              - helper functions
+    └── preprocess.py           - preprocessing functions
+    └── train.ipynb             - training functions
+    └── test.py                 - Real Time Camera test function
