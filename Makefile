@@ -17,9 +17,9 @@ endif
 
 # Target section and Global definitions
 # -----------------------------------------------------------------------------
-.PHONY: all clean test install run deploy down easter
+.PHONY: all clean test install run deploy down 
 
-all: clean test install run deploy down easter
+all: clean test install run deploy down 
 
 test:
 	poetry run pytest tests -vv --show-capture=all
@@ -44,9 +44,6 @@ generate_dot_env:
 	@if [[ ! -e .env ]]; then \
 		cp .env.example .env; \
 	fi
-
-easter:
-	./egg.sh
 
 clean:
 	@find . -name '*.pyc' -exec rm -rf {} \;
